@@ -51,7 +51,8 @@
 				<p>
 					He skims through different portfolios of web developers but he does not seem to interested in them or he does not know if they will know or have an idea of how and what content Morrissey want to include in his web magazine. He goes onto his Linkd in account and finds my portfolio.
 				</p>
-				<p>He sees on my portfolio that have a similar interest in bicycles. He clicks on my link that leads him to my web portfolio to see the projects that I have previously worked on. he decides to contact me through the email that is shown on my contact page.</p>
+				<p>He sees on my portfolio that have a similar interest in bicycles. He clicks on my link that leads him to my web portfolio to see the projects that I have previously worked on. he decides to contact me through the email that is shown on my contact page.
+				</p>
 		</main>
 	</body>
 </html>
