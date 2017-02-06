@@ -8,5 +8,5 @@
 		<title>Joseph Ramirez portfolio Page</title>
 	</head>
 
-	<!--body
+
 </html>
