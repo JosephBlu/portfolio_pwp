@@ -35,7 +35,7 @@
 		<img src="images/webpage/contact.png" alt="contact" width="auto" height="height">
 		<img src="images/deviceFormat/contactDv.png" alt="contactDv" width="auto" height="auto">
 		<p>
-			On the contact page,
+			On the contact page, I will keep it simple by displaying my email address.
 		</p>
 	</body>
 </html>
