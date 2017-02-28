@@ -34,3 +34,6 @@ You may also want to look into things such as image sliders for things like your
 
 ### Nice work here. Your milestone 2a passed in Tier IV
 
+## Milestone 2&beta; Feedback
+You've got a lot of work ahead of you to catch up, but this can be done with a good plan and ~6 very focused and productive hours. Get HTML and form up by Thursday AM. Detailed notes from our meeting sent via Slack. Your Milestone 2b passes at Tier I. I'll bump it to Tier II if you can get the HTML and form up by Thursday.
+
