@@ -13,16 +13,23 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
 		<!-- jQuery Form, Validate, Additional Methods -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js" type="text/javascript"></script>
 
+		<!-- google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="form-validate.js"></script>
+		<script src="js/form-validate.js"></script>
 
 		<!-- recaptcha google-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -41,12 +48,12 @@
 				</div>
 			</div>
 		</nav>
-
-		<div class="jumbotron">
+	<section>
+		<div class="site-wrapper" src="../images" image="IMG_6319.jpg">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1>Joseph Ramirez</h1>
+						<h1 class="h1">Joseph Ramirez</h1>
 						<h2>Welcome to My Portfolio</h2>
 					</div>
 				</div>
@@ -60,7 +67,7 @@
 			</div>
 		</div>
 		</div>
-
+		</section>
 		<div class="container">
 			<h2>PROJECTS</h2>
 			<div class="row">
