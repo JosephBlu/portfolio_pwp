@@ -22,7 +22,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js" type="text/javascript"></script>
 
 		<!-- google fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400i,600,700|Roboto+Mono:100,400,500,700" rel="stylesheet">
+
+		<!--favicon generator-->
+		<meta name="msapplication-TileColor" content="#ffffff">
 
 
 		<!-- Latest compiled and minified JavaScript -->
@@ -37,9 +40,8 @@
 	</head>
 
 	<body>
-
 		<nav class="navbar navbar-default navbar-fixed-bottom">
-			<div class="container">
+			<div class="container-nav">
 				<div class="btn-group btn-group-justified">
 					<a href="#" class="btn btn-default">HOME</a>
 					<a href="#" class="btn btn-default">PROJECTS</a>
@@ -48,26 +50,21 @@
 				</div>
 			</div>
 		</nav>
-	<section>
-		<div class="site-wrapper" src="../images" image="IMG_6319.jpg">
+
+		<div class="jumbotron">
+		<header class="cover-header">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1 class="h1">Joseph Ramirez</h1>
-						<h2>Welcome to My Portfolio</h2>
-					</div>
-				</div>
+				  <div class="row">
+					  <div class="col-md-12">
+						  <h1>Welcome to My Portfolio!</h1>
+						  <p>I am a entry-level, Albuquerque-based Full Stack Web Developer. I am an ambitious,  currently Freelancing and looking foreword to meet new clients and start new projects. <br>I have experience in using Php, CSS, Bootstrap, mySQL, Wordpress, and Xcoder.</p>
+					  </div>
+				  </div>
 			</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>I am a entry-level, Albuquerque-based Full Stack Web Developer. I am an ambitious,  currently Freelancing and looking foreword to meet new clients and start new projects.</p>
-					<p> I have experience in using Php, CSS, Bootstrap, mySQL, Wordpress, and Xcoder.  </p>
-				</div>
-			</div>
-		</div>
-		</div>
-		</section>
+		</header>
+	</div>
+
+		<div class="jumbotron-project">
 		<div class="container">
 			<h2>PROJECTS</h2>
 			<div class="row">
@@ -76,9 +73,8 @@
 					<p>GigHub is a social Networking site focused on helping musicians, venues, and fans to network with one another. This site presents a opportunity for musicians to be discovered, helps venues discover and contact new bands or local favorites to perform at the venues events, and allows fans to stay in touch and to know where and when their favorite band will be playing.</p>
 					<p>This project was a group capstone project that was created to graduate from Deep Dive Coding Bootcamp. The languages we used for the back-end was PHP for the coding and mySQL to create the database to store information. the Front-end languages we used are CSS, Bootstrap, and Angular2.</p>
 				</div>
-					<div class="col-md-6">
-						<a href="#" class="thumbnail">
-							<img src="images" alt="bluBird-16x16.png">
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
 						</a>
 						<h3>Blu Bird Tile Art</h3>
 						<p>Blu Bird Tile Art is a Albuquerque Local Business that specializes in hand-crafting tiles for basic home and business back-splashes and also creates private and public funded Mosaic art installations. </p>
@@ -86,7 +82,8 @@
 					</div>
 			</div>
 		</div>
-
+		</div>
+		<div class="jumbotron-skill">
 		<div class="container">
 			<H2>SKILLS</H2>
 			<div class="row">
@@ -104,14 +101,15 @@
 				</div>
 			</div>
 		</div>
+		</div>
 
-
+	<div class="jumbotron-contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 
-
 				</div>
+
 				<div class="col-md-4">
 					<h2> Feel free to Contact Me!</h2>
 					<!--Begin Contact Form-->
@@ -168,6 +166,9 @@
 					</div>
 			</div>
 		</div>
-	</body>
+		</div>
+	</div>
+	</div>
+	</body class="font">
 
 </html>
