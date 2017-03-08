@@ -72,16 +72,13 @@
 						</i>
 					</div>
 					<div class="col-md-6 ">
-						<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="GigHub is a social Networking site focused on helping musicians, venues, and fans to network with one another. This site presents a opportunity for musicians to be discovered, helps venues discover and contact new bands or local favorites to perform at the venues events, and allows fans to stay in touch and to know where and when their favorite band will be playing.
-					This project was a group capstone project that was created to graduate from Deep Dive Coding Bootcamp. The languages we used for the back-end was PHP for the coding and mySQL to create the database to store information. the Front-end languages we used are CSS, Bootstrap, and Angular2.. ">
-							<p>GigHub</p>
-						</button>
+						<h3>GigHub</h3>
+							<p>GigHub is a social Networking site focused on helping musicians, venues, and fans to network with one another. This site presents a opportunity for musicians to be discovered, helps venues discover and contact new bands or local favorites to perform at the venues events, and allows fans to stay in touch and to know where and when their favorite band will be playing. <hr>This project was a group capstone project that was created to graduate from Deep Dive Coding Bootcamp. The languages we used for the back-end was PHP for the coding and mySQL to create the database to store information. the Front-end languages we used are CSS, Bootstrap, and Angular2.</p>
 					</div>
 					<div class="col-md-6 ">
 						<img src="images/blubird1.png" width="325" height="400">
-						<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="<p>Blu Bird Tile Art is a Albuquerque Local Business that specializes in hand-crafting tiles for basic home and business back-splashes and also creates private and public funded Mosaic art installations.The Front-end of this project was created using Wordpress Content Managment Sytem. Also, for this project, I personally photographed the images using a Nikon D3300 and Adobe Lightroom for minor editing. ">
-							<p>Blu Bird Tile Art</p>
-						</button>
+						<h3>Blu Bird Tile Art</h3>
+						<p>Blu Bird Tile Art is a Albuquerque Local Business that specializes in hand-crafting tiles for basic home and business back-splashes and also creates private and public funded Mosaic art installations.The Front-end of this project was created using Wordpress Content Managment Sytem. Also, for this project, I personally photographed the images using a Nikon D3300 and Adobe Lightroom for minor editing. </p>
 					</div>
 				</div>
 			</div>

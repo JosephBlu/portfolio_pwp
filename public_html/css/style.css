@@ -44,8 +44,13 @@ body {
 }
 
 .btn-default:hover {
-	background-color: black;
+	background-color: grey;
 	margin-bottom: 5px;
 	margin-right: 5px;
 	margin-left: 5px;
+
+}
+
+.button {
+	background-color: gray;
 }
