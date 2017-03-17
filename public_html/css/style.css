@@ -19,7 +19,7 @@ p {
 		background-image: url("../images/IMG_3346.jpg") !important;
 		background-size: cover !important;
 		background-repeat: no-repeat !important;
-		background-position: center center !important;
+		background-position: center top !important;
 		color: whitesmoke;
 		position: relative;
 		height: 100%;
@@ -48,6 +48,7 @@ p {
 		border-style: ridge;
 		padding-bottom: 15px;
 		margin-bottom: 25px;
+		margin-top: 15px;
 	}
 }
 
@@ -64,3 +65,19 @@ p {
 	background-color: black;
 }
 
+#list {
+	background-color: #252b37;
+}
+
+#resume {
+	font-size: 20px;
+}
+
+#id {
+	color: black;
+}
+
+.container-fluid {
+	margin-bottom: 10px;
+	justify-content: center;
+}

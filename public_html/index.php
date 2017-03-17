@@ -9,6 +9,7 @@
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--Font awesome-->
 		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<script src="https://use.fontawesome.com/a650f26837.js"></script>
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -48,6 +49,19 @@
 	</head>
 	<!-- This is for the first section-->
 	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="https://github.com/JosephBlu">
+						<i class="fa fa-github-alt fa-2x" aria-hidden="true" id="brand"></i>
+					</a>
+					<a class="navbar-brand" href="https://www.linkedin.com/in/joseph-ramirez-3b82b4133/" id="brand">
+						<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</nav>
+
 		<!--		<div class="padding-large" id="main">-->
 		<!--			<header class="container">-->
 		<!--				<div class="row">-->
@@ -67,11 +81,14 @@
 		<div class="container" id="intro-section">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Joseph Portfolio</h1>
+					<h1>Joseph J. Ramirez</h1>
 					<h2>Full Stack Developer</h2>
+					<h2>Portfolio</h2>
 				</div>
 			</div>
 		</div>
+
+
 		<!-- this is the About page -->
 		<div class="container" id="aboutMe">
 			<div class="row">
@@ -96,7 +113,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2> PROJECTS</h2>
+					<h2> <i class="fa fa-code" aria-hidden="true"></i>PROJECTS</h2>
 				</div>
 				<div class="col-md-6 ">
 					<img src="images/GigHubLogoV1.png" width="325" height="400" ><br>
@@ -130,7 +147,7 @@
 										database to store
 										information. the Front-end languages we used are CSS, Bootstrap, and Angular2.</p>
 									<div class="list-group">
-										<a href="#" class="list-group-item active">
+										<a href="#" class="list-group-item active" id="list">
 											The GigHub Crew
 										</a>
 										<a href="http://cmd-space.com/" class="list-group-item">Mason Crane</a>
@@ -227,7 +244,7 @@
 						<h3>Rèsumè</h3>
 						<p> Feel free to take a look at my technical resume by clicking on the downloadable link named
 							"Rèsumè"</p>
-						<a target="_blank" href="resume/updatedresume%202.pdf">Rèsumè</a>
+						<a target="_blank" href="resume/updatedresume%202.pdf" id="resume">Rèsumè</a>
 						<h2>OR</h2>
 					</div>
 					<div class="col-md-4-offset">
