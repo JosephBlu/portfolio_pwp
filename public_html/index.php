@@ -99,25 +99,75 @@
 					<h2> PROJECTS</h2>
 				</div>
 				<div class="col-md-6 ">
-					<img src="images/GigHubLogoV1.jpg" width="325" height="325">
-					<h3>GigHub</h3>
-					<p>GigHub is a social Networking site focused on helping musicians, venues, and fans to network with one
-						another. This site presents a opportunity for musicians to be discovered, helps venues discover and
-						contact new bands or local favorites to perform at the venues events, and allows fans to stay in touch
-						and to know where and when their favorite band will be playing.
-					<hr>
-					This project was a group capstone project that was created to graduate from Deep Dive Coding Bootcamp.
-					The languages we used for the back-end was PHP for the coding and mySQL to create the database to store
-					information. the Front-end languages we used are CSS, Bootstrap, and Angular2.</p>
+					<img src="images/GigHubLogoV1.png" width="325" height="400" ><br>
+
+<!--					Button trigger modal-->
+					<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal" id="button-model">
+						<h3>info</h3>
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">GigHub</h4>
+								</div>
+								<div class="modal-body">
+									<p>GigHub is a social Networking site focused on helping musicians, venues, and fans to
+										network with one
+										another. This site presents a opportunity for musicians to be discovered, helps venues
+										discover and
+										contact new bands or local favorites to perform at the venues events, and allows fans to
+										stay in touch
+										and to know where and when their favorite band will be playing.</p>
+									<hr>
+									<p>This project was a group capstone project that was created to graduate from Deep Dive
+										Coding Bootcamp.
+										The languages we used for the back-end was PHP for the coding and mySQL to create the
+										database to store
+										information. the Front-end languages we used are CSS, Bootstrap, and Angular2.</p>
+									<div class="list-group">
+										<a href="#" class="list-group-item active">
+											The GigHub Crew
+										</a>
+										<a href="http://cmd-space.com/" class="list-group-item">Mason Crane</a>
+										<a href="http://brandonsteider.com/" class="list-group-item">Brandon Steider</a>
+										<a href="http://danteconley.com/" class="list-group-item">Dante Conley</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-6 ">
-					<img src="images/blubird1.png" width="325" height="400">
-					<h3>Blu Bird Tile Art</h3>
-					<p>Blu Bird Tile Art is a Albuquerque Local Business that specializes in hand-crafting tiles for basic
-						home and business back-splashes and also creates private and public funded Mosaic art
-						installations.The Front-end of this project was created using Wordpress Content Managment Sytem. Also,
-						for this project, I personally photographed the images using a Nikon D3300 and Adobe Lightroom for
-						minor editing. </p>
+					<img src="images/blubird1.png" width="325" height="400"><br>
+
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#bluBird" id="button-model">
+						<h3>Info</h3>
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="bluBird" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">Blu Bird Tile Art</h4>
+								</div>
+								<div class="modal-body">
+									<p>Blu Bird Tile Art is a Albuquerque Local Business that specializes in hand-crafting tiles for basic
+										home and business back-splashes and also creates private and public funded Mosaic art
+										installations.The Front-end of this project was created using Wordpress Content Managment Sytem. Also,
+										for this project, I personally photographed the images using a Nikon D3300 and Adobe Lightroom for
+										minor editing. </p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

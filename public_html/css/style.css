@@ -39,11 +39,6 @@ p {
 	}
 }
 
-@media (min-width: 400px) {
-	img {
-
-	}
-}
 
 @media (min-width: 700px) {
 	.container {
@@ -57,14 +52,15 @@ p {
 }
 
 .btn-default:hover {
-	background-color: grey;
+	color: black;
+	background-color: black;
 	margin-bottom: 5px;
 	margin-right: 5px;
 	margin-left: 5px;
 
 }
 
-.button {
-	background-color: gray;
+#button-model {
+	background-color: black;
 }
 
