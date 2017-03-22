@@ -113,7 +113,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2> <i class="fa fa-code" aria-hidden="true"></i>PROJECTS</h2>
+					<h2> <i class="fa fa-code fa-4" aria-hidden="true"></i>PROJECTS</h2>
 				</div>
 				<div class="col-md-6 ">
 					<img src="images/GigHubLogoV1.png" width="325" height="400" ><br>
@@ -192,7 +192,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>SKILLS</h2>
+					<h2><i class="fa fa-terminal fa-4" aria-hidden="true"></i>SKILLS</h2>
 				</div>
 				<div class="row">
 					<div col-md-4>
@@ -244,7 +244,7 @@
 						<h3>Rèsumè</h3>
 						<p> Feel free to take a look at my technical resume by clicking on the downloadable link named
 							"Rèsumè"</p>
-						<a target="_blank" href="resume/updatedresume%202.pdf" id="resume">Rèsumè</a>
+						<a target="_blank" href="resume/updatedresume2.pdf" id="resume">Rèsumè</a>
 						<h2>OR</h2>
 					</div>
 					<div class="col-md-4-offset">
