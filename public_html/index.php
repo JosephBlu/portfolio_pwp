@@ -26,6 +26,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"
 				  type="text/javascript"></script>
 
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
 		<!-- google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400i,600,700|Roboto+Mono:100,400,500,700"
 				rel="stylesheet">
@@ -62,21 +66,7 @@
 			</div>
 		</nav>
 
-		<!--		<div class="padding-large" id="main">-->
-		<!--			<header class="container">-->
-		<!--				<div class="row">-->
-		<!--					<div class="embed-responsive embed-responsive-16by9">-->
-		<!--						<!-- Add media queries to both medium and 992px width -->
-		<!--						<video src="./images/abq.mov" type="video/webm" autoplay muted loop>-->
-		<!--					</div>-->
-		<!--				</div>-->
-		<!--				<div class="col-md-4-offset" align="center">-->
-		<!--					<h1>Joseph Ramirez</h1>-->
-		<!--					<p> Full Stack Web Developer</p>-->
-		<!--				</div>-->
-		<!--		</div-->
-		<!--		</video>-->
-		<!--		</div>-->
+
 		<!-- This is for the first section-->
 		<div class="container" id="intro-section">
 			<div class="row">
@@ -285,8 +275,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-comment" aria-hidden="true"></i>
 									</div>
-									<textarea class="form-control" rows="5" id="message" name="message"
-												 placeholder="Message (2000 characters max)"></textarea>
+									<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 								</div>
 							</div>
 
@@ -303,18 +292,7 @@
 								<div id="output-area"></div>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
 	</body class="font">
 
-	<script>
-
-		$(function() {
-			$('[data-toggle="popover"]').popover()
-		})
-	</script>
 
 </html>
