@@ -20,11 +20,7 @@ Here's a suggestion: You could use this navbar design with the floating links at
 
 On mobile, I would suggest avoiding the floating navbar completely. The menu is placed directly in the middle of the common "scroll zone." The user may accidently click links while simply trying to scroll through the site. That would be very annoying.
 
-
-
-
 I like the design for the desktop page of Projects. On mobile, however, I think that moving each project to its own page would be a waste of space. You could use media queries and simply make them smaller on mobile devices, so it still looks good. Consider some other ideas, and ask me if you want to know more possibilities for the projects section on mobile.
-
 
 Great idea for the software page. Use code snippets, and coding language logos. Your contact page will use a contact form that we help you build and embed during class, so that shouldn't be an issue.
 
@@ -37,3 +33,17 @@ You may also want to look into things such as image sliders for things like your
 ## Milestone 2&beta; Feedback
 You've got a lot of work ahead of you to catch up, but this can be done with a good plan and ~6 very focused and productive hours. Get HTML and form up by Thursday AM. Detailed notes from our meeting sent via Slack. Your Milestone 2b passes at Tier I. I'll bump it to Tier II if you can get the HTML and form up by Thursday.
 
+## Milestone 3 / Final PWP Feedback
+You've created a beautiful layout and design on desktop - nice work. I love the progress bars in the Skills section. Unfortunately, this layout is not mobile-friendly, and your contact form is not working. See the Suggestions section below.
+
+Really nice work on your layout choices and design, but there is definite room for more work here. Keep practicing your front-end development skills in regards to responsive development, and getting the contact form working. This is an excellent beginning.
+
+Your PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+### Suggestions
+- Layout is beautiful on desktop, but not at all responsive for mobile. Practice more with using grid systems - whether that is Bootstrap's, or another grid system. Using a pre-built grid system like Bootstrap's is by far the easiest way to create responsive layouts.
+- Contact form returns a 500 error on submit. This can be caused by several things: Composer packages not installed on remote host, mailer files not uploaded... etc. Come talk with me if you would like some help debugging this.
+- Don't forget to use the `alt` attribute on your images. This is important not only for accessibility, but for google image search. And set width/height on images via CSS - this is much cleaner.
+- You have jQuery loaded twice - I would just keep v 3.0.0
+- Remove the incorrect link to font-awesome.min.css
+- I would place the links to Google Fonts BEFORE your custom css. This way you can reference the custom fonts in your custom CSS file
