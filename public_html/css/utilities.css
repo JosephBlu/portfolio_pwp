@@ -1,0 +1,95 @@
+/****************************************
+* JJRamirez.com utilities css
+* @author: JosephJRamirezWD@gmail.com
+*
+* Utility Styles
+*****************************************/
+
+.vertical-center {
+	display: flex;
+	align-items: center;
+}
+
+.text-serif {
+	font-family: 'Permanent Marker', 'Roboto', 'Roboto Condensed', 'Roboto Slab', cursive, serif, sans-serif;
+}
+
+
+/****************************************
+Spacers
+ ***************************************/
+/* padding for the fixed nav-mobile */
+.p-t-nav {
+	padding-top: 50px;
+}
+
+/* padding for the fixed nav - md, lg screens */
+@media only screen and (min-width:992px) {
+	.p-t-nav {
+		padding-top: 130px;
+	}
+}
+
+.m-a-0 {
+	margin: 0;
+}
+
+/********************************************
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+********************************************/
+
+/*corrects IE min-height bug */
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+/********************************************
+* Flexbox Column Height Control
+* Equal height content boxes using Flexbox CSS
+*
+* Author: rlewis37
+********************************************/
+
+/*
+* add the class "row-flex" to each row that
+* houses columns that need to be equal height
+*
+* this example is set to work on the MD breakpoint
+* adjust @media query min-width if necessary
+*/
+
+.row-flex > div[class="col-"] {
+	margin-bottom: 5px;
+}
+
+/*
+use the min-width of the appropriate breakpoint (this is set on md and lg)
+ */
+@madia only screen and (min-width: 768px) {
+	.row-flex {
+		display: flex;
+		flex: 1 1 auto;
+		-webkit-flex-flow: row wrap;
+		align-content: flex-start;
+	}
+
+	.row-flex > div[class="col-"] {
+		display: flex;
+		flex: 1 1 auto;
+	}
+}

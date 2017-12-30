@@ -45,9 +45,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script src="js/form-validate.js"></script>
 
 		<!-- google fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400i,600,700|Roboto+Mono:100,400,500,700"
-				rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Orbitron:500" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Condensed:400,400i|Roboto+Slab|Roboto:400,400i" rel="stylesheet">
 
 		<!--favicon generator-->
 		<meta name="msapplication-TileColor" content="#ffffff">
