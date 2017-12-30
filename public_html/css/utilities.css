@@ -80,7 +80,7 @@ body {
 /*
 use the min-width of the appropriate breakpoint (this is set on md and lg)
  */
-@madia only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.row-flex {
 		display: flex;
 		flex: 1 1 auto;

@@ -1,0 +1,37 @@
+/****************************************
+* JJRamirez portfolio theme css
+* @author: Josephjramirezwd@gmail.com
+*****************************************/
+
+html,
+body {
+	font-family: 'Permanent Marker', 'Roboto', 'Roboto Condensed', 'Roboto Slab', cursive, serif, sans-serif;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.lead {
+	font-weight: 300;
+}
+
+
