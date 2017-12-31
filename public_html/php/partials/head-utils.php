@@ -16,15 +16,18 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-		<meta name="viewport" content="width=device- width, initial_scale=1"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial_scale=1"/>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--Font awesome-->
 		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<script src="https://use.fontawesome.com/a650f26837.js"></script>
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+
+		<!-- My Custom CSS -->
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/utilities.css" type="text/css"/>
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/theme.css" type="text/css"/>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

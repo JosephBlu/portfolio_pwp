@@ -8,9 +8,18 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
 
 
-<body>
-	<!-- insert header and navbar -->
-	<?php require_once(dirname(__DIR__) . "/php/partials/header.php");?>
+<body class="sfooter content-layout">
+	<div class="sfooter-content">
+
+		<!-- insert header and navbar -->
+		<?php require_once(dirname(__DIR__) . "/php/partials/header.php");?>
+
+		<!-- begin main content page layout -->
+		<main class="container p-t-nav">
+
+			<!-- insert the page title up top -->
+			<?php require_once(dirname(__DIR__) . "/php/partials/page-title.php");?>
+
 
 	<!-- this is the contact Page-->
 <div class="jumbotron-contact">
@@ -77,6 +86,21 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					<div class="col-xs-12">
 						<div id="output-area"></div>
 					</div>
-				</div>
-				</body class="font">
-				</body>
+				</div><!--/.content-panel-->
+			</div><!--/.content-wrap-->
+
+			<!-- side panel -->
+			<div class="col-sm-3 col-sm-pull-9 side-panel">
+				<?php require_once(dirname(__DIR__) . "/php/partials/side-panel.php");?>
+			</div>
+
+		</div><!--/.row-flex-->
+		</main>
+
+	</div><!--/.sfooter-content-->
+
+	<!-- insert footer -->
+	<?php require_once(dirname(__DIR__) . "/php/partials/footer.php");?>
+
+</body>
+</html>

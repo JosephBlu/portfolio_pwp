@@ -7,7 +7,7 @@ $PAGE_TITLE = "JJR - Home";
 require_once("php/partials/head-utils.php");
 ?>
 
-
+<html>
 	<!-- This is for the first section-->
 	<body class="sfooter home-layout">
 		<div class="sfooter-content">
