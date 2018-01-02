@@ -18,11 +18,8 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="<?php echo $PREFIX;?>"><i class="fa fa-home"></i></a></li>
 					<li><a href="<?php echo $PREFIX;?>about">About</a></li>
+					<li><a href="<?php echo $PREFIX;?>promo">Services</a></li>
 					<li><a href="<?php echo $PREFIX;?>contact">Contact</a></li>
-					<li><a href="Github" target="_blank">GitHub</a></li>
-					<li><a href="Github" target="_blank">Facebook</a></li>
-					<li><a href="Github" target="_blank">Instagram</a></li>
-					<li><a href="Github" target="_blank">LinkedIn</a></li>
 				</ul>
 
 			</div><!-- /.navbar-collapse -->

@@ -10,6 +10,7 @@ body {
 
 p {
 	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
 }
 
 a,
@@ -23,6 +24,9 @@ a:active {
 	transition: all 250ms ease;
 }
 
+.w1 {
+	font-family: 'Permanent Marker', cursive;
+}
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -48,8 +52,12 @@ nav.navbar {
 
 .navbar-brand {
 	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
 }
 
+.navbar-fixed-top {
+	background-color: #33658A;
+}
 .navbar-default {
 	background-color: ghostwhite;
 }
@@ -60,7 +68,7 @@ nav.navbar {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: ghostwhite;
+	color: white;
  }
 
 .navbar-inverse .navbar-brand:focus,
@@ -69,6 +77,11 @@ nav.navbar {
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: black;
 }
+
+
+.navbar-nav>li>a {
+		color: white;
+	}
 
 /* embiggen nav on med and lrg screens only*/
 @media only screen and (min-width: 992px) {
@@ -91,8 +104,7 @@ nav.navbar {
 *****************************************/
 
 .welcome {
-	background: url("../images/beach.jpg") no-repeat center center;
-	/*background-color: tomato;*/
+	background: image("../images/beach.jpg") no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	min-height: 400px;
@@ -112,6 +124,13 @@ nav.navbar {
 	text-shadow: 3px 3px 0 white;
 	text-transform: uppercase;
 }
+
+	.w1 {
+		font-size: 2em;
+		text-shadow: 3px 3px 0 #86BBD8;
+		text-transform: uppercase;
+	}
+
 
 .welcome .jumbotron .lead {
 	background: tomato;
@@ -137,13 +156,13 @@ nav.navbar {
 }
 
 .featurette {
-	border: 1px solid #222;
-	font-family: 'Roboto', sans-serif;
+	border: 2px solid #222;
+	font-family: 'Permanent Marker', cursive;
 	padding: 4rem;
 	margin-bottom: 3rem;
 }
 
-.featurette > p {
+.featurette>p {
 	margin: 0;
 }
 
@@ -242,6 +261,7 @@ nav.navbar {
 footer.footer {
 	background-color: #2F4858;
 	color: #fff;
+
 	padding: 5rem 0;
 }
 
