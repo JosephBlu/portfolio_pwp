@@ -104,7 +104,7 @@ nav.navbar {
 *****************************************/
 
 .welcome {
-	background: image("../images/beach.jpg") no-repeat center center;
+	background: url("../images/beach.jpg") no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	min-height: 400px;
