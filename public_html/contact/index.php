@@ -29,14 +29,14 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<h3>Rèsumè</h3>
 				<p> Feel free to take a look at my technical resume by clicking on the downloadable link named
 					"Rèsumè"</p>
-				<a target="_blank" href="resume/updatedresume2.pdf" id="resume">Rèsumè</a>
+				<a target="_blank" href="../resume/updatedresume2.pdf" id="resume">Rèsumè</a>
 				<h2>OR</h2>
 			</div>
 			<div class="col-md-4-offset">
 				<h2> Feel free to Contact Me!</h2>
 
 				<!--Begin Contact Form-->
-				<form id="contact-form" action="php/mailer.php" method="post">
+				<form id="josephs-contact-form" action="../php/mailer.php" method="post">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
