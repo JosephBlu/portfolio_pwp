@@ -18,7 +18,7 @@ require_once("php/partials/head-utils.php");
 			<section class="welcome p-t-nav">
 				<div class="container">
 					<div class="jumbotron text-right">
-						<h1>JJR Development</h1>
+						<h1>Joseph<br>Ramirez</br></h1>
 						<p class="lead">Web and Applications Developer</p>
 					</div>
 				</div>

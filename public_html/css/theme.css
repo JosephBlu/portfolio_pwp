@@ -59,23 +59,24 @@ nav.navbar {
 	background-color: #33658A;
 }
 .navbar-default {
-	background-color: ghostwhite;
+	background-color: #33658A;
+	color: white;
 }
 
 /*custom nav-bar-inverse overrides*/
 .navbar-inverse .navbar-brand {
-	color: white;
+	color: #33658A;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: white;
+	color: #33658A;
  }
 
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: black;
+	color: white;
 }
 
 
@@ -93,6 +94,11 @@ nav.navbar {
 .navbar-inverse {
 	background-color: transparent;
 	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
 }
 
 .navbar-brand{
@@ -120,7 +126,7 @@ nav.navbar {
 	color: black;
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: tomato;
-	font-size: 8em;
+	font-size: 6em;
 	text-shadow: 3px 3px 0 white;
 	text-transform: uppercase;
 }
@@ -283,7 +289,7 @@ footer.footer {
 
 .foot-link a:hover,
 .foot-link a:active {
-	color: #444;
+	color: tomato;
 	text-decoration: none;
 }
 

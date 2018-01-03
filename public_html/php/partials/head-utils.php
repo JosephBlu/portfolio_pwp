@@ -44,18 +44,17 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 
 
-		<!-- jQuery Form, Validate, Additional Methods -->
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
-
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
-
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 		<script src="<?php echo $PREFIX;?>js/form-validate.js" type="text/javascript"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Custom JavaScript for Visual Effects -->
 		<script src="<?php echo $PREFIX;?>js/custom-javascript.js" type="text/javascript"></script>
@@ -65,12 +64,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!--favicon generator-->
 		<meta name="msapplication-TileColor" content="#ffffff">
-
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
-
-		<!-- recaptcha google-->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- echo the $PAGE_TITLE variable here -->
 		<title><?php echo $PAGE_TITLE;?></title>

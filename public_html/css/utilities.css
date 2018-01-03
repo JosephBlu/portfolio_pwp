@@ -41,7 +41,6 @@ Spacers
 
 /*corrects IE min-height bug */
 html {display: flex;}
-
 body {width: 100%;}
 
 .sfooter {
@@ -84,7 +83,7 @@ use the min-width of the appropriate breakpoint (this is set on md and lg)
 		align-content: flex-start;
 	}
 
-	.row-flex > div[class="col-"] {
+	.row-flex > div[class*="col-"] {
 		display: flex;
 		flex: 1 1 auto;
 	}
