@@ -22,6 +22,8 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 
 
 	<!-- this is the contact Page-->
+
+<body>
 <div class="jumbotron-contact">
 	<div class="container">
 		<div class="row">
@@ -36,7 +38,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<h2> Feel free to Contact Me!</h2>
 
 				<!--Begin Contact Form-->
-				<form id="josephs-contact-form" action="../php/mailer.php" method="post">
+				<form id="josephs-contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
@@ -75,7 +77,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					</div>
 
 					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6LescRcUAAAAAHN6D0L3YmfxMJlmZoMcu0WUSuQ4"></div>
+					<div class="g-recaptcha" data-sitekey="6LfsNT8UAAAAAD9ZNJ2txnrxfm77LkhkCFev-Pmn"></div>
 
 					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
@@ -97,7 +99,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 		</div><!--/.row-flex-->
 		</main>
 
-	</div><!--/.sfooter-content-->
+<!--	</div><!--/.sfooter-content-->-->
 
 	<!-- insert footer -->
 	<?php require_once(dirname(__DIR__) . "/php/partials/footer.php");?>
