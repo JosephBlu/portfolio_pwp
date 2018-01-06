@@ -32,13 +32,13 @@ this is the about us section
 					<div class="row row-flex">
 						<div class="col-sm-6 col-md-4">
 							<div class="featurette vertical-center" >
-								<p class="w1">About Me</p>
+								<p class="w1"><a href="about/index.php">About Me</a></p>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-8">
 						<div>
-							<p class="lead">What should you know about me?</p>
-							<p class="lead m-a-0"></p>
+							<p class="lead">Awesome! My very own page.</p>
+							<p class="lead m-a-0">If you are looking for my bio, my interests an/or skills. Feel free to click this link to the left and stop to have a read.</p>
 						</div>
 						</div>
 					</div>
@@ -53,7 +53,7 @@ This will be the Services section
 				<div class="row row-flex">
 					<div class="col-sm-6 col-md-4">
 						<div class="featurette vertical-center">
-							<p class="w1">Services</p>
+							<p class="w1"><a href="promo/index.php">Services</a></p>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-8">
@@ -73,7 +73,7 @@ This will be the Services section
 				<div class="row row-flex">
 					<div class="col-sm-6 col-md-4">
 						<div class="featurette vertical-center">
-							<p class="w1">Contact Me</p>
+							<p class="w1"><a href="contact/index.php">Contact Me</a></p>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-8">
