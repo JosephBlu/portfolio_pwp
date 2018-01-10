@@ -111,10 +111,10 @@ nav.navbar {
 *****************************************/
 
 .welcome {
-	background: url("../images/beach.jpg") no-repeat center center;
+	background: url("../images/phpScreen.jpg") no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
-	opacity: 50;
+	opacity: 60;
 	min-height: 400px;
 }
 

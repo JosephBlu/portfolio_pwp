@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 
 	/* begin validation*/
-	$("#contact-form").validate({
+	$("josephs-contact-form").validate({
 
 		// setup handling of form errors
 		debug: true,

@@ -58,8 +58,8 @@ This will be the Services section
 					</div>
 					<div class="col-sm-6 col-md-8">
 						<div>
-							<p class="lead">this section will have to be replaced with something.</p>
-							<p class="lead m-a-0">im supposed to let the project talk to me but i fell like im talking to a brick wall</p>
+							<p class="lead">Where to begin?</p>
+							<p class="lead m-a-0">From websites to application development, each project will be created to be fully-responsive and customized to meet your needs. Click the link to the left to find out where to get started. I cant wait to work with you.</p>
 						</div>
 					</div>
 				</div>
@@ -78,8 +78,8 @@ This will be the Services section
 					</div>
 					<div class="col-sm-6 col-md-8">
 						<div>
-							<p class="lead">this section will have to be replaced with something.</p>
-							<p class="lead m-a-0">im supposed to let the project talk to me but i fell like im talking to a brick wall</p>
+							<p class="lead">Do you want to reach me?</p>
+							<p class="lead m-a-0">Email me for any information, questions, or if you are ready to begin. </p>
 						</div>
 					</div>
 				</div>

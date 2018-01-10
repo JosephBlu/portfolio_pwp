@@ -38,7 +38,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<h2> Feel free to Contact Me!</h2>
 
 				<!--Begin Contact Form-->
-				<form id="josephs-contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post">
+				<form id="josephs-contact-form" action="../php/mailer.php" method="post">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
