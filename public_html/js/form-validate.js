@@ -13,9 +13,8 @@ $(document).ready(function(){
 	 * @author Rochelle Lewis <rlewis37@cnm.edu>
 	 **/
 
-
-	/* begin validation*/
-	$("josephs-contact-form").validate({
+	/* begin validate function here */
+	$("#contact-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -23,7 +22,7 @@ $(document).ready(function(){
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
 
-		// rules define what is good/bad input
+		// rules here define what is good or bad input
 		// each rule starts with the form input element's NAME attribute
 		rules: {
 			name: {
@@ -39,7 +38,7 @@ $(document).ready(function(){
 			}
 		},
 
-		// error messages to display to the end user
+		// error messages to display to the end user when rules above don't pass
 		messages: {
 			name: {
 				required: "Please enter your name."
@@ -74,6 +73,6 @@ $(document).ready(function(){
 			})
 		}
 
-	});/* end validate function */
+	});/* end validate function here */
 
 });/*end document.ready()*/
